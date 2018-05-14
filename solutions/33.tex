@@ -1,1 +1,140 @@
 \subsubsection*{Rozwiązanie:}
+\textbf{podpunkt a}
+
+fala podłużna: 
+
+\begin{equation}
+U_s=U cos(\omega-ska)
+\end{equation}
+
+a-odległość pomiędzy atomami,
+$\omega$-częstotliwość,
+s-pozycja atomu,
+$k=\frac{2\pi}{\lambda}$
+\\
+\\
+prędkość:
+\\
+\begin{equation}
+v=\frac{dU_s}{dt}=\frac{d}{dt}(Ucos(\omega t- ska)
+\end{equation}
+\\
+\\
+energia kinetyczna:
+\\
+\begin{equation}
+E_k=\frac{1}{2}Mv^2=\frac{1}{2}M(\frac{dU_s}{dt})^2
+\end{equation}
+\\
+\\
+całkowita energia kinetyczna fali- suma energi poszczególnych atomów:
+\\
+\\
+\begin {equation}
+E_k=\sum\frac{1}{2}M(\frac{dU_s}{dt})^2
+\end{equation}
+\\
+\\
+energia potencjalna:
+\\
+\\
+\begin{equation}
+E_p=\frac{1}{2}kx^2-> \frac{1}{2}C(U_s-U_{s+1})^2
+\end{equation}
+\\
+c-stała siłowa
+\\
+\\
+całkowita energia potencjalna:
+\\
+\begin{equation}
+E_p=\sum\frac{1}{2}kx^2-> \frac{1}{2}C(U_s-U_{s+1})^2
+\end{equation}
+\\
+\\
+całkowita energia:
+\\
+\begin{equation}
+E=\frac{1}{2}\sum M(\frac{dU_s}{dt})^2+\frac{1}{2}C\sum(U_s-U_{s+1})^2
+\end{equation}
+\\
+\\
+\\
+\textbf{podpunkt b}
+\\
+\\
+$U_s=Ucos(\omega t-ska)$
+\\
+$U_{s+1}=Ucos(\omega t-(s+1)ka)$
+\\
+\\
+korzystamy z zależności $cos(\alpha - \beta)=cos\alpha cos\beta+sin\alpha sin\beta$
+\\
+\\
+$U_{s+1}=U[cos(\omega t- ska-ka]=U[cos(\omega t-ska)cos(ka)+sin(\omega t-ska)sin(ka)]$
+\\
+\\
+$U_s-U_{s+1}=Ucos(\omega t-ska)-U[cos(\omega t- ska-ka]=U[cos(\omega t-ska)cos(ka)+sin(\omega t-ska)sin(ka)]$
+\\
+\\
+$=Ucos(\omega t-ska)[1-cos(ka)]+sin(\omega t-ska)sin(ka)]$
+\\
+\\
+$E=\frac{1}{2}M(\frac{d}{dt}Ucos(\omega t-ska)^2+\frac{1}{2}C[Ucos(\omega t-ska)[1-cos(ka)]+sin(\omega t-ska)sin(ka)]^2$
+\\
+\\
+$=\frac{1}{2}M[-U\omega sin(\omega t-ska]^2+\frac{1}{2}C[Ucos(\omega t-ska)[1-cos(ka)]+sin(\omega t-ska)sin(ka)]^2$
+\\
+\\
+podstawiamy:
+\\
+\\
+$\omega t-ska -> A$
+\\
+$ka ->B$
+\\
+\\
+$E=\frac{1}{2}M[-u\omega sinA]^2+\frac{1}{2}CU^2[cosA(1-cosB)+sinAsinB]^2$
+\\
+\\
+$=\frac{1}{2}M\omega^2U^2sin^2A+\frac{1}{2}CU^2[cos^2A(1-cosB)^2+sin^2Asin^2B+2cosA(1-cosB)sinAsinB$
+\\
+\\
+$=\frac{1}{2}M\omega^2U^2sin^2A+\frac{1}{2}CU^2[cos^2A(1-2cosB+cos^2B)+sin^2AB+2cosA(1-cosB)sinAsinB$
+\\
+\\
+$=\frac{1}{2}M\omega^2U^2sin^2A+\frac{1}{2}CU^2[cos^2A-2cos^2AcosB+cos^2Acos^B+sin^2Asin^2B+2cosA(1-cosB)sinAsinB$
+\\
+\\
+$<cos^2>=\frac{1}{2}$
+\\
+$<sin^2>=\frac{1}{2}$
+\\
+$<sin cos>=0$
+\\
+\\
+$E=\frac{1}{2}M\omega^2U^2\frac{1}{2}+\frac{1}{2}CU^2[\frac{1}{2}-cosB+\frac{1}{4}+\frac{1}{4}+2*0*sinB-2*0*0]$
+\\
+\\
+$=\frac{1}{4}M\omega^2U^2+\frac{1}{2}CU^2[\frac{1}{2}-cosB+\frac{1}{2}]=\frac{1}{4}M\omega^2U^2+\frac{1}{2}[1-cosB]$
+\\
+\\
+B->ka
+\\
+\\
+$E=\frac{1}{4}M\omega^2U^2+\frac{1}{2}CU^2(1-cos(ka)$
+\\
+\\
+relacja dyspersyjna:
+\\
+\\
+$\omega^2=\frac{2C}{M}(1-cos(ka))$
+\\
+\\
+$\frac{M\omega^2}{2C}=(1-cos(ka))$
+\\
+\\
+$E=\frac{1}{4}M\omega^2U^2+\frac{1}{4}U^2\frac{M\omega^2}{2}$
+\\
+\\
+$E=\frac{1}{2}M\omega^2U^2$
