@@ -1,1 +1,111 @@
 \subsubsection*{Rozwiązanie:}
+\textbf{przypadek 1}
+Stała Madelunga jest używana do wyznaczania potencjału elektrostatycznego pojedynczych jonów w krysztale, przez zbliżanie się jonów przez ładunki punktowe. 
+\\
+\\
+wzór ogólny:
+\\
+\\
+\begin{equation}
+\alpha=\sum \frac {\pm}{p_i}
+\end{equation}
+\\
+\\
+W naszym przypadku: 
+\\
+\\
+\begin{equation}
+\frac{\alpha}{R}=2(\frac{1}{R}-\frac{2}{R}+\frac{1}{3R})-\frac{1}{4R}+\frac{1}{5R}
+\end{equation}
+\\
+gdzie jako jon odniesienia bierzemy jon zaznaczony na rysunku, następnie odejmujemu lub dodajemy w zależności od znaku jonu w minaowniku są wielokrotności odległości od jonu odniesienia.
+\\
+\\
+używając rozwinięcia w szereg Maclurina możemy udowodnić, że szereg:
+\\
+\\
+\begin{equation}
+x-\frac{x^2}{2}+\frac{x^3}{3}-\frac{x^4}{4}....
+\end{equation}
+\\
+\\
+którego wzór ogólny ma postać:
+\\
+\\
+\begin{equation}
+\sum_{n=1}^{\infty}\frac{(-1)^{n+1}}{n}x^n
+\end{equation}
+\\
+\\
+jest zbierzny do funkcji ln(1+x), gdzie x=1.
+\\
+\\
+Rozwinięcie:
+\\
+\\
+$f(x)=ln(x+1)$   =>   $f(0)=ln(1)=0$
+\\
+\\
+$f'(x)=-\frac{1}{(x+1)^2}$   =>   $f(0)=-1$
+\\
+\\
+$f''(x)=\frac{2}{(x+1)^3}$   =>   $f(0)=2$
+\\
+\\
+$f'''(x)=-\frac{6}{(x+1)^5}$   =>   $f(0)=-6$
+\\
+\\
+$=0+1*\frac{x}{1}-1*\frac{x^2}{2}+\frac{x^3}{6}-\frac{x^4}{4}$
+\\
+\\
+ogólny wynik:
+$\alpha=2ln2$
+\\
+\\
+\textbf{przypadek drugi}
+\\
+\\
+Odległości obliczmy w natępujący sposób:
+\\
+\\
+-jako jon odniesienia bierzemy jon w środku.
+\\
+\\
+-dzielimy przestrzeń na cztery kwadraty i wszystko liczmy dla jednego kwadratu potem mnożymy razy cztery.
+\\
+\\
+-pierwsze trzy wartości w nawiasie są to odległości od jonu odniesienia w prawo (liczmy je tak jak poprzednio, w liczniku znak, a wmianowniku wielokrotność odległości od jonu odniesienia)
+\\
+\\
+-następnie liczmy odległość jonu oznaczone gwiazdką, mnożymy przez odpowiedni znak i dodajemy do sumy (liczmy ze wzoru Pitagorasa)
+\\
+\\
+następnie liczmy odległości dwóch jonów oznaczonych paprykami i mnożymy razy dwa ponieważ na prawo od jonu z gwiazdką też mamy papryki.
+\\
+\\
+-potem liczymy jony oznaczone słońcami 
+\\
+\\
+-a na końcu jon oznaczony prostokątem i mnożymy razy dwa bo po prawej też jest prostokąt.
+\\
+\\
+I wychodzi nam:
+\\
+\\
+\begin{equation}
+\frac{\alpha}{R} =\frac{4}{R}(1-\frac{1}{2}+\frac{1}{3}-\frac{1}{\sqrt{2}}=\frac{2}{\sqrt{5}}-\frac{2}{\sqrt{10}}-\frac{1}{2\sqrt{2}}-\frac{1}{3\sqrt{2}}+\frac{2}{\sqrt{13}})
+\end{equation}
+\\
+\\
+opisane wyżej odległości, które znajdują się w licznikach liczymy ze wzoru pitagorasa, np. dla jonu z gwiazdką:
+\\
+\\
+\begin{equation}
+R^2+R^2=R^2
+\end{equation}
+\begin{equation}
+2R^2=R^2
+\end{equation}
+\begin{equation}
+R=\sqrt{2}R
+\end{equation}
