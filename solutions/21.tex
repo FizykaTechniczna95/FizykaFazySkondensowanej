@@ -1,1 +1,19 @@
 \subsubsection*{Rozwiązanie:}
+pierwsza pochodna:
+\begin{equation}
+\frac{\partial U}{\partial r} = \frac{n\alpha}{r^{n+1}} - \frac{m\beta}{r^{m+1}}=0 \rightarrow \frac{n\alpha}{r^{n+1}} = \frac{m\beta}{r^{m+1}}
+\end{equation}
+\begin{equation}
+\label{eq:pp}
+\frac{r^{m+1}}{r^{n+1}} = r^{m-n} = \frac{m\beta}{n\alpha}
+\end{equation}
+druga pochodna:
+\begin{equation}
+\frac{\partial^2 U}{\partial r^2} = - \frac{n(n+1)\alpha}{r^{n+2}} + \frac{m(m+1)\beta}{r^{m+2}} > 0
+\end{equation}
+\[ \frac{n(n+1)\alpha}{r^{n+2}} < \frac{m(m+1)\beta}{r^{m+2}} \]
+\[n(n+1)\alpha \left( \frac{r^{m+2}}{r^{n+2}} \right) = n(n+1)\alpha r^{m-n} < m(m+1)\beta\]
+z (\ref{eq:pp}):
+\[ n(n+1)\alpha \frac{m\beta}{n\alpha} = (n+1)m\beta = nm\beta + m\beta < m^2\beta + m\beta\]
+\[nm < m^2 \rightarrow n<m\]
+\hrulefill
