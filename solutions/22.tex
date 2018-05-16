@@ -25,6 +25,23 @@ U(R_0) = N \left( \frac{\alpha q^2}{R_0^n} - \frac{\alpha q^2}{R_0} \right) = \f
 \hrulefill
 \item Rozwijając w szereg wokół $R_0$ ($\frac{\partial U}{\partial R} =0 $):
 \begin{equation}
+\label{eq:ur_t}
 U(R_0-\delta R_0 ) = R_0 + \frac{1}{2} \frac{\partial^2 U}{\partial R^2} R_0 (\delta R_0)^2
+\end{equation}
+gdzie druga pochodna wyraża się przez:
+\begin{equation}
+\frac{\partial^2 U}{\partial R^2} = N \left( \frac{n(n+1)A}{R^{n+2}} - \frac{2\alpha q^2}{R^3} \right) = N \left( \frac{(n+1)\alpha q^2}{R^3} - \frac{2\alpha q^2}{R^3} \right) = N \left( \frac{2R(n+1)\alpha q^2}{2R^4} - \frac{2R\alpha q^2}{R^4} \right)
+\end{equation}
+oraz $2NR=1$, stąd:
+\begin{equation}
+\frac{\partial^2 U}{\partial R^2} = \frac{\alpha q^2}{2R^4}(n-1)
+\end{equation}
+\begin{equation}
+\label{eq:cc}
+C = R^2 \frac{\partial^2 U}{\partial R^2} = \frac{(n-1)q^2\ln(2)}{R^2}
+\end{equation}
+Wstawiając (\ref{eq:cc}) do (\ref{eq:ur_t}) otrzymuje się:
+\begin{equation}
+U(R_0-\delta R_0 ) = U(R_0) + \frac{C\delta^2}{2}R_0 
 \end{equation}
 \end{enumerate}
